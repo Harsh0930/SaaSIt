@@ -144,7 +144,7 @@ left: 20px;
 top: 20px;
 }
 
-@media only screen and (min-width:570px){
+@media only screen and (min-width:425px){
 footer.footer_main_section{
     padding: 0px;
 }
