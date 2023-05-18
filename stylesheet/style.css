@@ -1,6 +1,10 @@
 .body{
 margin:0;
 }
+section.container,footer.container{
+    width: 100%;
+    max-width: 1600px;
+}
 .nav-link{
 font-family: Poppins;
 color: #1d224c;
@@ -142,8 +146,7 @@ left: 20px;
 top: 20px;
 }
 
-
-
+/* KeyFrames  */
 @keyframes move {
 0%{
     top: 0;
