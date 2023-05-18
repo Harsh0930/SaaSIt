@@ -13,16 +13,18 @@ color: #1d224c;
 font-family: Poppins;
 }
 .main_container{
-height:auto;
-background-repeat: no-repeat;
-background-position: center;
-background: url('/images/bg_pic.webp');
-background-size: cover;
-background-blend-mode: multiply;
-}
+height: auto;
+} 
 .main_paraone{
     font-size: 18px;
     letter-spacing: 1px;
+}
+.section_one{
+background: url('/images/bg_pic.webp');
+background-size: cover;
+background-blend-mode: multiply;
+background-repeat: no-repeat;
+height: auto;
 }
 
 .section_two{
