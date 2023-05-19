@@ -112,14 +112,6 @@ letter-spacing: 1px;
     font-size: 22px;
     color: whitesmoke;
 }
-.socialicon_listitem:hover{
-    background-color: whitesmoke;
-    transition: .2s ease-in;
-}
-.socialicon_link:hover{
-    color: #1d224c;
-}
-
 
 
 /* Shapes CSS */
@@ -142,12 +134,6 @@ opacity: .3;
 width: 100px !important;
 left: 20px;
 top: 20px;
-}
-
-@media only screen and (min-width:425px){
-footer.footer_main_section{
-    padding: 0px;
-}
 }
 
 /* KeyFrames  */
