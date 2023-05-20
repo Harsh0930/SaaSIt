@@ -248,4 +248,19 @@ background: linear-gradient(90deg, rgba(211,211,215,1) 0%, rgba(29,34,76,0.5) 40
 
 }
 
+@media only screen and (min-width:320px) and (max-width:576px){
+    .shape_six{
+        height: 110px !important;
+        width: 110px !important;
+        left: 10px;
+        bottom: 150px;
+    }
+    .shape_seven{
+        height: 100px !important;
+        width: 100px !important;
+    right: 50px;
+    bottom: 100px;
+    }
+}
+
 
