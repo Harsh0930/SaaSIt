@@ -16,13 +16,13 @@ height: auto;
     font-size: 18px;
     letter-spacing: 1px;
 }
-/* .section_one{
+.section_one{
 background: url('/images/bg_pic.webp');
 background-size: cover;
 background-blend-mode: multiply;
 background-repeat: no-repeat;
 height: auto;
-} */
+}
 
 .section_two{
 height: auto;
@@ -62,7 +62,6 @@ color: whitesmoke;
 position: relative;
 }
 .section_four{
-    height: auto;
     background-color: #1d224c;
 }
 .trust_heading{
