@@ -20,6 +20,7 @@ height: auto;
 background: url('/images/pic1.webp');
 background-size: cover;
 -webkit-background-size: cover;
+background-attachment: scroll;
 -moz-background-size: cover;
 background-blend-mode: multiply;
 background-repeat: no-repeat;
