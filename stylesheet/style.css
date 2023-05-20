@@ -16,7 +16,7 @@ height: auto;
     font-size: 18px;
     letter-spacing: 1px;
 }
-.section_one{
+/* .section_one{
 background: url('/images/pic1.webp');
 background-size: cover;
 -webkit-background-size: cover;
@@ -25,7 +25,7 @@ background-attachment: scroll;
 background-blend-mode: multiply;
 background-repeat: no-repeat;
 height: auto;
-}
+} */
 
 .section_two{
 height: auto;
