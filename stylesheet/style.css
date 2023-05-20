@@ -261,6 +261,9 @@ background: linear-gradient(90deg, rgba(211,211,215,1) 0%, rgba(29,34,76,0.5) 40
     right: 50px;
     bottom: 100px;
     }
+    .trust_column{
+        backdrop-filter: blur(5px);
+    }
 }
 
 
