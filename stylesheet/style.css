@@ -197,7 +197,7 @@ background: linear-gradient(90deg, rgba(211,211,215,1) 0%, rgba(29,34,76,0.5) 40
     width: 180px !important;
     border-radius: 50%;
     opacity: .5;
-    right:180px;
+    right:120px;
     bottom:60px;
     box-shadow: rgba(245, 245, 245, 0.39) 0px 5px 50px 0px;
     background: rgb(211,211,215);
@@ -248,7 +248,7 @@ background: linear-gradient(90deg, rgba(211,211,215,1) 0%, rgba(29,34,76,0.5) 40
 
 }
 
-@media only screen and (min-width:320px) and (max-width:576px){
+@media  (min-width:320px) and (max-width:414px){
     .shape_six{
         height: 110px !important;
         width: 110px !important;
@@ -265,24 +265,25 @@ background: linear-gradient(90deg, rgba(211,211,215,1) 0%, rgba(29,34,76,0.5) 40
         backdrop-filter: blur(5px);
     }
 }
-
-
-@media only screen and (max-width:576px){
+@media (min-width:414px) and (max-width:1400px){
     .shape_six{
         height: 110px !important;
         width: 110px !important;
-        left: 10px;
-        bottom: 150px;
+        left: 5px;
+        bottom: 170px;
     }
     .shape_seven{
-        height: 130px !important;
-        width: 130px !important;
-    right: 60px;
-    bottom: 80px;
+        height: 150px !important;
+        width: 150px !important;
+    right:20px;
+    bottom: 90px;
     }
     .trust_column{
         backdrop-filter: blur(5px);
-    }
+    }   
 }
+
+
+
 
 
