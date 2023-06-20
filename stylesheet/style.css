@@ -12,9 +12,9 @@ font-family: Poppins;
 height: auto;
 } 
 .main_paraone{
-    font-family: Poppins;
-    font-size: 18px;
-    letter-spacing: 1px;
+font-family: Poppins;
+font-size: 18px;
+letter-spacing: 1px;
 }
 /* .section_one{
 background: url('/images/pic1.webp');
@@ -26,6 +26,10 @@ background-blend-mode: multiply;
 background-repeat: no-repeat;
 height: auto;
 } */
+
+.card-img-top{
+    height: 300px !important;
+}
 
 .section_two{
 height: auto;
@@ -65,96 +69,96 @@ color: whitesmoke;
 position: relative;
 }
 .section_four{
-    background-color: #1d224c;
+background-color: #1d224c;
 }
 .trust_heading{
-    font-family: Poppins;
+font-family: Poppins;
 }
 .head_one{
-    color: white;
-    font-family: Poppins;
+color: white;
+font-family: Poppins;
 }
 .para_one{
-    color: darkgray;
-    font-family: Poppins;
+color: darkgray;
+font-family: Poppins;
 }
 .trust_column{
-    backdrop-filter: blur(5px) contrast(92%);
-    -webkit-backdrop-filter: blur(5px) contrast(92%);
+backdrop-filter: blur(5px) contrast(92%);
+-webkit-backdrop-filter: blur(5px) contrast(92%);
 }
 .trust_column:hover{
-    background: linear-gradient(90deg, rgba(211,211,215,0) 0%, rgba(29,34,76,1) 40%, rgba(0,212,255,0.3702731092436975) 100%);
-    border-color: #1d224c;
-    transition: 2s ease-in;
+background: linear-gradient(90deg, rgba(211,211,215,0) 0%, rgba(29,34,76,1) 40%, rgba(0,212,255,0.3702731092436975) 100%);
+border-color: #1d224c;
+transition: 2s ease-in;
 }
 
 
 /* footer  */
 .footer_main_section{
-    border-top: 5px solid #1d224c;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+border-top: 5px solid #1d224c;
+border-top-left-radius: 15px;
+border-top-right-radius: 15px;
+box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 }
 .footer_logo{
-    width: 100px;
-    cursor: pointer;
+width: 100px;
+cursor: pointer;
 }
 .brand_description,.footer_head{
 font-family: Poppins;
 letter-spacing: 1px;
 }
 .brand_description{
-    font-size: 15px;
+font-size: 15px;
 }
 .footer_head{
-    color: #1d224c;
+color: #1d224c;
 }
 .footer_list{
-    list-style: none;
+list-style: none;
 }
 .footer_link{
-    color: gray;
-    font-family: Poppins;
-    font-size: 15px;
+color: gray;
+font-family: Poppins;
+font-size: 15px;
 }
 .footer_link:hover{
-    color: #1d224c;
-    transition: .4s ease-in;
+color: #1d224c;
+transition: .4s ease-in;
 }
 /* Copyright section  */
 .copyright_section{
-    background-color: #1d224c;
+background-color: #1d224c;
 }
 .copyright_para{
-    font-size: 15px;
-    font-family: Poppins;
+font-size: 15px;
+font-family: Poppins;
 }
 .socialicon_listitem{
-    padding: 5px 10px;
-    margin: 0 5px;
-    border:1px solid whitesmoke;
-    border-radius: 50%;
+padding: 5px 10px;
+margin: 0 5px;
+border:1px solid whitesmoke;
+border-radius: 50%;
 }
 .socialicon_link{
-    font-size: 22px;
-    color: whitesmoke;
+font-size: 22px;
+color: whitesmoke;
 }
 
 
 
 
 @media  (min-width:320px) and (max-width:414px){
-    .trust_column{
-        backdrop-filter: blur(5px) contrast(90%);
-        -webkit-backdrop-filter: blur(5px) contrast(90%);
-    }
+.trust_column{
+    backdrop-filter: blur(5px) contrast(90%);
+    -webkit-backdrop-filter: blur(5px) contrast(90%);
+}
 }
 @media (min-width:414px) and (max-width:1400px){
-    .trust_column{
-        backdrop-filter: blur(5px) contrast(90%);
-        -webkit-backdrop-filter: blur(5px) contrast(90%);
-    }   
+.trust_column{
+    backdrop-filter: blur(5px) contrast(90%);
+    -webkit-backdrop-filter: blur(5px) contrast(90%);
+}   
 }
 
 
